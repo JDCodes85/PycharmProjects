@@ -1,3 +1,8 @@
 userPrompt = "Enter a todo: "
-user_text = input(userPrompt)
-print(user_text)
+
+todos = []
+
+while True:
+    todo = input(userPrompt)
+    todos.append(todo)
+    print(todos)
